@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
-import { addProduct } from "../features/products/ProductSlice";
+import { editProduct } from "../features/products/ProductSlice";
 
 function EditProduct() {
   const { id } = useParams();
@@ -15,11 +15,7 @@ function EditProduct() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const updated = products.map((p) =>
-      p.id == id ? form : p
-    );
-
-    dispatch(addProduct(updated)); // optional logic
+    dispatch(editProduct(form));   // ✔ correct way
     alert("Product Updated!");
   };
 
@@ -27,10 +23,8 @@ function EditProduct() {
     <div>
       <h1 className="text-3xl font-bold mb-6">Edit Product</h1>
 
-      <form
-        onSubmit={handleSubmit}
-        className="bg-white p-6 rounded shadow max-w-lg"
-      >
+      <form onSubmit={handleSubmit} className="bg-white p-6 rounded shadow max-w-lg">
+
         <input
           className="border p-2 w-full mb-4"
           value={form.title}

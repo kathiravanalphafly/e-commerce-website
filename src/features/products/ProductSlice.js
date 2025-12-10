@@ -83,7 +83,18 @@ const productSlice = createSlice({
         (item) => item.id !== action.payload
       );
       state.filteredItems = [...state.items];
-    }
+    },
+    
+    editProduct: (state, action) => {
+     const updatedProduct = action.payload;
+
+     state.items = state.items.map((item) =>
+      item.id === updatedProduct.id ? updatedProduct : item
+     );
+
+     state.filteredItems = [...state.items]; // update filter
+    },
+
   },
 });
 
@@ -93,6 +104,7 @@ export const {
   setSelectedCategory,
   addProduct,
   deleteProduct,
+  editProduct,
 } = productSlice.actions;
 
 export default productSlice.reducer;

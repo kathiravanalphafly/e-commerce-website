@@ -7,7 +7,7 @@ const products = [
     price: 29990,
     description:
       "Gigabyte GeForce RTX 4060 Eagle is a mid-tier gaming GPU with 8GB GDDR6 memory, advanced Ray Tracing, and DLSS 3.",
-    image: "/src/assets/imgs/GPU/download.png",
+    image: "/products/GPU/download.png",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const products = [
     price: 69999,
     description:
       "The NVIDIA GeForce RTX 5070 Founders Edition offers next-gen performance for 1440p and 4K gaming.",
-    image: "/src/assets/imgs/GPU/download-1.png",
+    image: "/products/GPU/download-1.png",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const products = [
     price: 24500,
     description:
       "Gigabyte RTX 3060 Windforce OC 12GB provides excellent value and solid 1080p/1440p performance.",
-    image: "/src/assets/imgs/GPU/710VwPmljwL._AC_UF10001000_QL80_.png",
+    image: "/products/GPU/710VwPmljwL._AC_UF10001000_QL80_.png",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const products = [
     price: 17238,
     description:
       "MSI RTX 3050 Ventus 2X OC delivers 1080p gaming capabilities and support for RTX features.",
-    image: "/src/assets/imgs/GPU/51QaFKJf3L.png",
+    image: "/products/GPU/51QaFKJf3L.png",
   },
 
   // ================= Laptops =================
@@ -45,8 +45,7 @@ const products = [
     price: 58999,
     description:
       "Acer Aspire 7 with Ryzen 5 5500U, 8GB RAM, 512GB SSD and GTX 1650 graphics.",
-    image:
-      "/src/assets/imgs/Laptop/71r6R9CO6DL.jpg",
+    image: "/products/Laptop/71r6R9CO6DL.jpg",
   },
   {
     id: 6,
@@ -55,7 +54,7 @@ const products = [
     price: 67999,
     description:
       "HP Pavilion 15 with Intel i5 12th Gen, 16GB RAM, 512GB SSD and IPS display.",
-    image: "/src/assets/imgs/Laptop/61zS7LGVxaL._AC_UF10001000_QL80_.png",
+    image: "/products/Laptop/61zS7LGVxaL._AC_UF10001000_QL80_.png",
   },
   {
     id: 7,
@@ -64,7 +63,7 @@ const products = [
     price: 79999,
     description:
       "ASUS TUF F15 with 144Hz display, i5 11th Gen, 16GB RAM & RTX 3050.",
-    image: "/src/assets/imgs/Laptop/71GnO1KRT4L.png",
+    image: "/products/Laptop/71GnO1KRT4L.png",
   },
   {
     id: 8,
@@ -73,7 +72,7 @@ const products = [
     price: 84999,
     description:
       "MacBook Air M1 with Retina display, M1 chip, 8GB RAM & 256GB SSD.",
-    image: "/src/assets/imgs/Laptop/61LzPiqjg-L._AC_UF10001000_QL80_.png",
+    image: "/products/Laptop/61LzPiqjg-L._AC_UF10001000_QL80_.png",
   },
 
   // ================= Monitors =================
@@ -84,7 +83,7 @@ const products = [
     price: 5229,
     description:
       "FRONTECH 22-inch Full HD LED monitor with 100Hz refresh rate.",
-    image: "/src/assets/imgs/Monitor/81m18ZcAEfL.jpg",
+    image: "/products/Monitor/81m18ZcAEfL.jpg",
   },
   {
     id: 10,
@@ -93,7 +92,7 @@ const products = [
     price: 11999,
     description:
       "Zebronics 32-inch curved VA panel Full HD monitor for immersive viewing.",
-    image: "/src/assets/imgs/Monitor/81QoDEXunyL.jpg",
+    image: "/products/Monitor/81QoDEXunyL.jpg",
   },
   {
     id: 11,
@@ -102,7 +101,7 @@ const products = [
     price: 16999,
     description:
       "Acer Ultrawide 1500R curvature monitor with Full HD resolution.",
-    image: "/src/assets/imgs/Monitor/41j-OhXQv1L.jpg",
+    image: "/products/Monitor/41j-OhXQv1L.jpg",
   },
   {
     id: 12,
@@ -111,7 +110,7 @@ const products = [
     price: 9999,
     description:
       "LG UltraGear monitor with high refresh rate and fast response time.",
-    image: "/src/assets/imgs/Monitor/61UeE6enrLL.jpg",
+    image: "/products/Monitor/61UeE6enrLL.jpg",
   },
 
   // ================= SMPS =================
@@ -122,7 +121,7 @@ const products = [
     price: 22990,
     description:
       "Antec 1300W Platinum certified SMPS with modular cabling.",
-    image: "/src/assets/imgs/SMP/images.jpg",
+    image: "/products/SMP/images.jpg",
   },
   {
     id: 14,
@@ -131,7 +130,7 @@ const products = [
     price: 7100,
     description:
       "Cooler Master G800 800W Gold certified efficient PSU.",
-    image: "/src/assets/imgs/SMP/41PDOk5qxPL._AC_UF10001000_QL80_.png",
+    image: "/products/SMP/41PDOk5qxPL._AC_UF10001000_QL80_.png",
   },
   {
     id: 15,
@@ -140,7 +139,7 @@ const products = [
     price: 4590,
     description:
       "MSI A650BN Bronze rated PSU for mid-range gaming builds.",
-    image: "/src/assets/imgs/SMP/images-3.jpg",
+    image: "/products/SMP/images-3.jpg",
   },
   {
     id: 16,
@@ -149,7 +148,7 @@ const products = [
     price: 4590,
     description:
       "Gigabyte P650SS Silver certified efficient SMPS.",
-    image: "/src/assets/imgs/SMP/images-4.jpg",
+    image: "/products/SMP/images-4.jpg",
   },
 ];
 
